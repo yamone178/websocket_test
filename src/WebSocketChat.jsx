@@ -59,7 +59,7 @@ const WebSocketChat = () => {
           className="flex-1 border p-2 rounded-lg"
           placeholder="Type a message..."
         />
-        <button onClick={sendMessage} className=" bg-black text-white px-4 py-2 rounded-lg">
+        <button onClick={sendMessage} className=" bg-black text-white px-4 py-2 rounded-lg cursor-pointer">
           Send
         </button>
       </div>
